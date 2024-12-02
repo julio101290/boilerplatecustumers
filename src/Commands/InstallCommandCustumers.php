@@ -72,7 +72,7 @@ class InstallCommandCustumers extends BaseCommand
             $this->call('migrate');
             // then seed data
             $seeder = Database::seeder();
-            $seeder->call('julio101290\boilerplateproducts\Database\Seeds\BoilerplateCustumers');
+            $seeder->call('julio101290\boilerplatecustumers\Database\Seeds\BoilerplateCustumers');
         } catch (\Exception $e) {
             $this->showError($e);
         }
