@@ -23,6 +23,8 @@ CodeIgniter4 Boilerplatebranchoffice CRUD MVC contain capture per companie Key,n
 
  	composer require julio101290/boilerplatebranchoffice
 
+   	composer require julio101290/boilerplatecustumers
+
 ### Run command for migration and seeder
 
 	php spark boilerplatecompanies:installcompaniescrud
@@ -30,6 +32,8 @@ CodeIgniter4 Boilerplatebranchoffice CRUD MVC contain capture per companie Key,n
  	php spark boilerplatelog:installlog
 
   	boilerplatebranchoffice:installbranchoffice
+	
+   	boilerplatecustumers:installcustumers
 
  ### BaseController.php Config
 
