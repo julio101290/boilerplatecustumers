@@ -120,14 +120,13 @@ CodeIgniter4 Boilerplatebranchoffice CRUD MVC contain capture per companie Key,n
 * Put in the folder writable/database/catalogossat.db
 
 ### Make the menu
-![image](https://github.com/user-attachments/assets/3377700f-e5bc-4317-95a4-3b800bead3e5)
+![image](https://github.com/user-attachments/assets/82de5be4-2a71-4aa5-ad9d-5e30e51a025a)
+
 
 
 # Ready
+![image](https://github.com/user-attachments/assets/d3c731a6-96e1-4afe-9ec7-7f1466056151)
 
-![image](https://github.com/user-attachments/assets/e844eb79-33a5-43e7-9809-c939b8e1028e)
-
-![image](https://github.com/user-attachments/assets/02d65119-62b4-4040-984c-aae92f763c34)
 
 
 Usage
