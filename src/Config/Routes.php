@@ -3,8 +3,6 @@
 
 $routes->group('admin', function ($routes) {
 
-
-
     $routes->resource('custumers', [
         'filter' => 'permission:custumers-permission',
         'controller' => 'custumersController',
