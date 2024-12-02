@@ -1,6 +1,6 @@
 <?php
 
-namespace julio101290\boilerplateproducts\Database\Seeds;
+namespace julio101290\Boilerplatecustumers\Database\Seeds;
 
 use CodeIgniter\Config\Services;
 use CodeIgniter\Database\Seeder;
@@ -10,7 +10,7 @@ use Myth\Auth\Models\UserModel;
 /**
  * Class BoilerplateSeeder.
  */
-class BoilerplateProducts extends Seeder {
+class BoilerplateCustumers extends Seeder {
 
     /**
      * @var Authorize
@@ -37,14 +37,11 @@ class BoilerplateProducts extends Seeder {
 
 
         // Permission
-        $this->authorize->createPermission('products-permission', 'Permissions for products');
-        $this->authorize->createPermission('categorias-permission', 'Permissions for products');
-
+        $this->authorize->createPermission('custumers-permission', 'Permission for add, update and delete for custumers.');
        
 
         // Assign Permission to user
-        $this->authorize->addPermissionToUser('products-permission', 1);
-        $this->authorize->addPermissionToUser('categorias-permission', 1);
+        $this->authorize->addPermissionToUser('custumers-permission', 1);
 
     }
 

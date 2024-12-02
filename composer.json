@@ -1,10 +1,11 @@
 {
-    "name": "julio101290/boilerplateproducts",
-    "description": "CodeIgniter4 Boilerplateproducts CRUD MVC contain capture category and producto CRUD per companie, contain name, admin inventory, SAT Fields invoices",
+    "name": "julio101290/boilerplatecustumers",
+    "description": "CodeIgniter4 Boilerplatecustumers CRUD MVC contain capture basic as name, lastname taxID and SAT Fields invoices CFDI 4.0",
     "keywords": [
         "codeigniter4",
         "backup",
         "companies",
+        "custumers",
         "mysql",
         "CRUD",
         "invoice",
@@ -36,7 +37,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "julio101290\\boilerplateproducts\\": "src"
+            "julio101290\\boilerplatecustumers\\": "src"
         }
     },
     "autoload-dev": {

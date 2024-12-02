@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Controllers;
+namespace julio101290\boilerplatecustumers\Controllers;
 
 use App\Controllers\BaseController;
-use \App\Models\{
+use \julio101290\boilerplatecustumers\Models\{
     CustumersModel
 };
-use App\Models\LogModel;
+use julio101290\boilerplatelog\Models\LogModel;
 use CodeIgniter\API\ResponseTrait;
-use App\Models\EmpresasModel;
+use julio101290\boilerplatecompanies\Models\EmpresasModel;
 
 class CustumersController extends BaseController {
 
@@ -57,7 +57,7 @@ class CustumersController extends BaseController {
         $titulos["usoCFDI"] = $this->catalogosSAT->usosCfdi40()->searchByField("texto", "%%", 99999);
         $titulos["metodoPago"] = $this->catalogosSAT->metodosDePago40()->searchByField("texto", "%%", 99999);
         $titulos["regimenFiscal"] = $this->catalogosSAT->regimenesFiscales40()->searchByField("texto", "%%", 99999);
-        return view('custumers', $titulos);
+        return view('julio101290\boilerplatecustumers\Views\custumers', $titulos);
     }
 
     /**

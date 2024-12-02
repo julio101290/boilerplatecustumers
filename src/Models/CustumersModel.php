@@ -1,5 +1,5 @@
 <?php
-namespace App\Models;
+namespace julio101290\boilerplatecustumers\Models;
 
 use CodeIgniter\Model;
 
