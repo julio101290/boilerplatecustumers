@@ -1,28 +1,28 @@
- <?php
-$custumers["logDescription"] = "La registro de kliento estis konservita kun la sekvaj datumoj:";
-$custumers["logUpdate"] = "La registro de kliento estis ĝisdatigita kun la sekvaj datumoj:";
-$custumers["logDeleted"] = "La registro de kliento estis forigita kun la sekvaj datumoj:";
-$custumers["msg_delete"] = "La registro de kliento estis sukcese forigita:";
-$custumers["add"] = "Aldoni klienton";
-$custumers["edit"] = "Redakti klienton";
-$custumers["createEdit"] = "Krei / Redakti";
-$custumers["title"] = "Administrado de klientoj";
-$custumers["subtitle"] = "Listo de klientoj";
-$custumers["fields"]["firstname"] = "Persona nomo";
-$custumers["fields"]["lastname"] = "Familia nomo";
-$custumers["fields"]["taxID"] = "Imposta kodo";
-$custumers["fields"]["email"] = "Retpoŝto";
-$custumers["fields"]["direction"] = "Adreso";
-$custumers["fields"]["birthdate"] = "Naskiĝdato";
-$custumers["fields"]["created_at"] = "Kreita je";
-$custumers["fields"]["updated_at"] = "Lasta ŝanĝo je";
-$custumers["fields"]["deleted_at"] = "Forigita je";
+<?php
+$custumers["logDescription"] = "El registro del cliente ha sido guardado con los siguientes datos:";
+$custumers["logUpdate"] = "El registro del cliente ha sido actualizado con los siguientes datos:";
+$custumers["logDeleted"] = "El registro del cliente ha sido eliminado con los siguientes datos:";
+$custumers["msg_delete"] = "El registro del cliente ha sido eliminado correctamente:";
+$custumers["add"] = "Agregar Cliente";
+$custumers["edit"] = "Editar Cliente";
+$custumers["createEdit"] = "Crear / Editar";
+$custumers["title"]="Administración de Clientes";
+$custumers["subtitle"] = "Lista de Clientes";
+$custumers["fields"]["firstname"] = "Nombre";
+$custumers["fields"]["lastname"] = "Apellido";
+$custumers["fields"]["taxID"] = "RFC";
+$custumers["fields"]["email"] = "Correo Electrónico";
+$custumers["fields"]["direction"] = "Dirección";
+$custumers["fields"]["birthdate"] = "Fecha de nacimiento";
+$custumers["fields"]["created_at"] = "Fecha de creación";
+$custumers["fields"]["updated_at"] = "Última modificación";
+$custumers["fields"]["deleted_at"] = "Fecha de eliminación";
 
-$custumers["fields"]["actions"] = "Agoj";
-$custumers["msg"]["msg_insert"] = "Registro sukcese aldonita.";
-$custumers["msg"]["msg_update"] = "Registro sukcese ĝisdatigita.";
-$custumers["msg"]["msg_delete"] = "Registro sukcese forigita.";
-$custumers["msg"]["msg_get"] = "Registro sukcese ricevita.";
-$custumers["msg"]["msg_get_fail"] = "Registro ne trovita aŭ forigita.";
+$custumers["fields"]["actions"] = "Acciones";
+$custumers["msg"]["msg_insert"] = "Registro agregado correctamente.";
+$custumers["msg"]["msg_update"] = "Registro modificado correctamente.";
+$custumers["msg"]["msg_delete"] = "Registro eliminado correctamente.";
+$custumers["msg"]["msg_get"] = "Registro obtenido correctamente.";
+$custumers["msg"]["msg_get_fail"] = "Registro no encontrado o eliminado.";
+
 return $custumers;
-        
