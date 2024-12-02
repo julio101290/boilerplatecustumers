@@ -32,13 +32,13 @@
 
                         <div class="tab-pane fade show active" id="generalesClientes" role="tabpanel" aria-labelledby="generales">
 
-                            <?= $this->include('modulesCustumers/generalCustumers') ?>
+                            <?= $this->include('julio101290\boilerplatecustumers\Views\modulesCustumers/generalCustumers') ?>
 
                         </div>
 
                         <div class="tab-pane fade" id="facturacionCFDIClientes" role="tabpanel" aria-labelledby="datosFacturacion">
 
-                            <?= $this->include('modulesCustumers/facturacionCustumers') ?>
+                            <?= $this->include('julio101290\boilerplatecustumers\Views\modulesCustumers/facturacionCustumers') ?>
 
                         </div>
 

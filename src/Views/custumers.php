@@ -7,7 +7,7 @@
 <!-- Section content -->
 <?= $this->section('content') ?>
 
-<?= $this->include('modulesCustumers/modalCaptureCustumers') ?>
+<?= $this->include('julio101290\boilerplatecustumers\Views\modulesCustumers/modalCaptureCustumers') ?>
 
 <!-- SELECT2 EXAMPLE -->
 <div class="card card-default">
